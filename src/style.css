@@ -28,6 +28,25 @@ section {
   z-index: 100;
 }
 
+a {
+  display: inline-block;
+  background: #FF99CC;
+  color: #1f1e33;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 10px 30px;
+  margin-top: 20px;
+  border-radius: 6px;
+  border: 2px solid #FF99CC;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #FF99CC;
+  background: none;
+}
+
 .coming_content {
   position: absolute;
   top: 50%;
